@@ -28,6 +28,21 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+# Visual Studio local settings and caches
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.sln.ide
+
+# JetBrains Rider local settings
+.idea/
+*.sln.iml
+
+# User-specific publish profiles (may contain credentials)
+*.pubxml.user
+
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
@@ -38,11 +53,22 @@ ScaffoldingReadMe.txt
 
 # dotenv environment variables file
 .env
+.env.*
+!.env.example
+!.env.sample
 
 # Others
 ~$*
 *~
 CodeCoverage/
+coverage/
+*.coverage
+*.coveragexml
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 # MSBuild Binary and Structured Log
 *.binlog
